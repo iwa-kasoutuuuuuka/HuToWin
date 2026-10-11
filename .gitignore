@@ -1,0 +1,31 @@
+# ---- ROM / ROM を内蔵した生成物は絶対にコミットしない ----
+PCE_ROM/
+*.pce
+*.sgx
+*.sfc
+*.smc
+*.bin
+*.rom
+build/
+
+# ---- 変換で生成される exe (ROM 内蔵) ----
+*.exe
+
+# ---- エミュレータの実行時出力 ----
+*.st1
+*.st2
+*.st3
+*.st4
+*.st5
+screenshots/
+headless.log
+ram.bin
+vram.bin
+*.wav
+
+# ---- Visual Studio / .NET ----
+bin/
+obj/
+.vs/
+*.user
+*.suo
